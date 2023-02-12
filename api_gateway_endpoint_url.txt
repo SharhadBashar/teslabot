@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CloudFormation outputs from deployed stack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Outputs                                                                                                                                                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Key                 SentimentFunctionIamRole                                                                                                                                                                                                     
+Description         Implicit IAM Role created                                                                                                                                                                                                    
+Value               arn:aws:iam::473918350307:role/teslabot-fb-sharhad-SentimentFunctionRole-U7HKXAST76HX                                                                                                                                        
+
+Key                 SentimentApi                                                                                                                                                                                                                 
+Description         API Gateway endpoint URL for Prod stage                                                                                                                                                                                      
+Value               https://gbkjll265m.execute-api.us-east-1.amazonaws.com/Prod                                                                                                                                                                  
+
+Key                 SentimentFunction                                                                                                                                                                                                            
+Description         Sentiment Analysis Lambda Function ARN                                                                                                                                                                                       
+Value               arn:aws:lambda:us-east-1:473918350307:function:teslabot-fb-sharhad-SentimentFunction-CDOCLAAbAvYO                                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Successfully created/updated stack - teslabot-fb-sharhad in us-east-1
