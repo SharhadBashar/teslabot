@@ -1,0 +1,19 @@
+What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
+1. Model deploy and release is highly flexible
+2. Online monitoring and validation can occur per model as part of the	rollout process
+3. Predictions can be generated and served in real(/run)-time, and online
+
+What is ML model deployment?
+ML Model Deployment is the process of implementing a fully functional machine learning model into production where it can respond to requests for predictions on demand
+ML Model Deployment is part of the MLOps lifecycle of deployment, which includes maintenance, monitoring, availability, reliability, performance, scalability,  and optimization.
+When ML Deployment is designed appropriately, benefits of repeatability, reliability, automation, and ultimately measurable business value is observed.
+
+What is Causal Inference and How Does It Work?
+Causal inference refers to an intellectual discipline that considers the assumptions, study designs, and estimation strategies that allow researchers to draw causal conclusions based on data.
+The gold standard for inferring causal effects is randomized controlled trials (RCTs) or A/B tests.  Traditioanlly in the RCT method, a populationis split into two groups.  One is the control where no treatment or change is introduced.  For the other group, changes are applied (causes), and themeffect is measured against the control to determine the effectiveness ofthe technique.  As long as the two data sets are eqully representative,then the cause and effect will represent a valid change.
+In real life, there are situations where these types of tests cannot bepractically performed.  One popular technique to address this is the useof statistics to make causal inferences (ie Judea Pearl) which utilizes causal graphs, mapping all direct causes and real relationships betweenvariables. 
+Another technique is the potential outcomes framework (Donald Rubin) whichdoes not rely on a causal graph but still makes broad assumptions regardingthe data, causes, and relationships. 
+
+What is serverless deployment and how its compared with deployment on server?
+Serverless deployment is a cloud native development and deployment model that allows developers to build and run applications without having to directly manage the specifics/details of the underlying OS or hardware.
+Serverless deployment allows for a simple configuration of resource minimums, maximums, and scaling parameters through a deployment configuration file (eg. yaml).  The developers focus remains squarely on functionality, and the details of standardization, versioning,  how exactly the server is provisioned, or how it responds to the rising or diminishing user requests is completely abstracted.
